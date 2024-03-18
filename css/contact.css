@@ -560,4 +560,7 @@ textarea{
     .bottom-footer-info-text-top,.bottom{
         width: 100%;
     }
+    .menubox{
+        width: 250px;
+    }
 }
