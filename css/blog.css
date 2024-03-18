@@ -522,3 +522,121 @@ a{
     color: white;
     opacity: 0.4;
 }
+@media screen and (max-width: 1024px){
+    .container{
+        max-width: 950px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 992px){
+    .container{
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .menu-btn{
+        right: inherit;
+    }
+    .header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .popular-article{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid black;
+        padding-bottom: 30px;
+    }
+    .articles{
+        flex-direction: column;
+    }
+    .article-info-img{
+        display: block;
+        flex: 1 1 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        max-width: 576px;
+        margin: 0 auto;
+    }
+    .header-logo{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .all-articles-box{
+        flex-direction: column;
+    }
+    .artcile-info-title,.article-info-text{
+        text-align: center;
+    }
+    .bottom-footer-info{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .bottom-footer-info-text-top{
+        text-align: center;
+    }
+    .bottom-footer-menu{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .bottom-footer-menu-adress{
+        order: 2;
+        text-align: center;
+    }
+    .footer-logo{
+        align-self: center;
+    }
+}
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .header-logo{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .name{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .name-title{
+        font-size: 36px;
+    }
+    .search{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .blog-title,.all-articles-title{
+        text-align: center;
+    }
+    .artcile-info-title{
+        font-size: 36px;
+    }
+    .article-info-text,.all-articles-box-text{
+        margin-bottom: 20px;
+    }
+    .article-info-img{
+        max-width: 100%;
+    }
+    .article-title,.all-articles-box-title{
+        font-size: 24px;
+    }
+    .bottom-footer{
+        padding-top: 100px;
+    }
+    .bottom-footer-info-text-top,.bottom{
+        width: 100%;
+    }
+    .header{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .menubox{
+        width: 250px;
+    }
+}
